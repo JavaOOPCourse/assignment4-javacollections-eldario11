@@ -3,7 +3,7 @@ package model;
 public class Issue implements Comparable<Issue> {
 
     private String description;
-    private int urgencyLevel; // 1 = most urgent
+    private int urgencyLevel;
 
     public Issue(String description, int urgencyLevel) {
         this.description = description;

@@ -9,11 +9,11 @@ public class StudentService {
     private ArrayList<Student> students = new ArrayList<>();
 
     public void initializeStudents() {
-        students.add(new Student(1, "Alice", 3.8));
-        students.add(new Student(2, "Bob", 1.9));
-        students.add(new Student(3, "Charlie", 3.5));
-        students.add(new Student(4, "Diana", 1.7));
-        students.add(new Student(5, "Eve", 3.9));
+        students.add(new Student(1, "Mike", 3.8));
+        students.add(new Student(2, "Jessy", 1.9));
+        students.add(new Student(3, "Soul", 3.5));
+        students.add(new Student(4, "Skyler", 1.7));
+        students.add(new Student(5, "Wolter", 3.9));
     }
 
     public void removeLowGPA() {
